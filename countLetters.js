@@ -21,11 +21,13 @@ const countLetters = function(string) {
   return result;
 };
 
-const string = "Oh hello there";
+// const string = "Oh hello there";
 
-const result1 = countLetters(string);
+// const result1 = countLetters(string);
 
-assertEqual(result1["h"], 2);
-assertEqual(result1["b"], undefined);
-assertEqual(result1["e"], 3);
-assertEqual(result1["Agouhanna"], undefined);
+// assertEqual(result1["h"], 3);
+// assertEqual(result1["b"], undefined);
+// assertEqual(result1["e"], 3);
+// assertEqual(result1["Agouhanna"], undefined);
+
+module.exports = countLetters;

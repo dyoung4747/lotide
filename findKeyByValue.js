@@ -18,14 +18,16 @@ const findKeyByValue = function(obj, value) {
 };
 
 
-const musicByGenre = {
-  rap: "Drake",
-  rock: "Emery",
-  idm: "Rival Consoles"
-};
+// const musicByGenre = {
+//   rap: "Drake",
+//   rock: "Emery",
+//   idm: "Rival Consoles"
+// };
 
-console.log(findKeyByValue(musicByGenre, "Drake"));
+// console.log(findKeyByValue(musicByGenre, "Las Von"));
 
-assertEqual(findKeyByValue(musicByGenre, "Drake"), "rap");
-assertEqual(findKeyByValue(musicByGenre, "Emery"), "rock");
-assertEqual(findKeyByValue(musicByGenre, "Rival Consoles"), "idm");
+// assertEqual(findKeyByValue(musicByGenre, "Drake"), "rap");
+// assertEqual(findKeyByValue(musicByGenre, "Emery"), "rock");
+// assertEqual(findKeyByValue(musicByGenre, "Rival Consoles"), "idm");
+
+module.exports = findKeyByValue;

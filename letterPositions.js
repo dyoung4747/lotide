@@ -43,8 +43,10 @@ const letterPositions = function(string) {
 
 
 
-let string = "hello";
-console.log(letterPositions(string));
+// let string = "hello";
+// console.log(letterPositions(string));
 
-assertArraysEqual(letterPositions(string).h, [0]);
-assertArraysEqual(letterPositions(string).l, [2, 3]);
+// assertArraysEqual(letterPositions(string).h, [0]);
+// assertArraysEqual(letterPositions(string).l, [2, 3]);
+
+module.exports = letterPositions;

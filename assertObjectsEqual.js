@@ -40,9 +40,11 @@ const assertObjectsEqual = function(actual, expected) {
   }
 };
 
-  const cd = { c: "1", d: ["2", 3] };
-  const dc = { d: ["2", 3, 4], c: "1" };
-console.log(assertObjectsEqual(cd, dc)); 
+//   const cd = { c: "1", d: ["2", 3] };
+//   const dc = { d: ["2", 3, 4], c: "1" };
+// console.log(assertObjectsEqual(cd, dc)); 
   
-  const cd2 = { c: "1", d: ["2", 3] };
-console.log(assertObjectsEqual(cd, cd2));
+//   const cd2 = { c: "1", d: ["2", 3] };
+// console.log(assertObjectsEqual(cd, cd2));
+
+module.exports = assertObjectsEqual;
